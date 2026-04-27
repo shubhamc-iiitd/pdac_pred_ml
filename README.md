@@ -35,8 +35,8 @@ python pdac_pred.py -i <input_file> -o <output_file> --sep <delimiter>
 ```
 
 Arguments:
--i, --input: (Required) Path to the input TPM file (format: genes x samples).
+` -i, --input: (Required) Path to the input TPM file (format: genes x samples).`
 
--o, --output: (Optional) Name of the output CSV file. Defaults to predictions.csv.
+` -o, --output: (Optional) Name of the output CSV file. Defaults to predictions.csv.`
 
---sep: (Optional) The delimiter used in your input file. Defaults to \t (Tab). Use , for CSV files.
+` --sep: (Optional) The delimiter used in your input file. Defaults to \t (Tab). Use , for CSV files.`
